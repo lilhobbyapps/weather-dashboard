@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 22px;
+    background-color: #4E4FEB;
+    color:white;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+nav {
+    width: 250px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+#searchHistory {
+    margin-top: 30px;
+}
+
+#search {
+    margin-top: 22px;
+}
+
+#search a {
+    background-color:#4E4FEB;
+    color:white;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+
+#search a:hover {
+    background-color: #068FFF;
+}
+
+input {
+    border: none;
+    border: solid black 1px;
+    height: 32px;
+    width: 180px;
+    padding: 16px 18px;
+    outline:#4E4FEB;
+    border-radius: 2px;
+}
+
+.citySearch {
+    background-color:#EEEEEE;
+    color:black;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.citySearch:hover {
+    background-color: #DDDDDD;
+}
+
+
+
+#todayWeather {
+    margin-top: 30px;
+    border: solid black 1px;
+    border-radius: 2px;
+    padding: 30px 60px;
+    padding-right: 600px;
+    margin-left: 20px;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+#todayTemp, #todayWind {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#forecast {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#fiveDay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.day {
+    background-color: #4E4FEB;
+    color: white;
+    margin: 10px 36px 10px 0px;
+    padding: 40px 60px;
+}
+
+.forecastDate {
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.forecastInfo {
+    margin-bottom:10px;
+    margin-top: 10px;
+}
