@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="files/favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <section id="container">
+
+        <nav>
+            <h2>Search for a City:</h2>
+            <input type="text" id="city" name="city" placeholder="search city">
+            <p id="search"><a href="#">Search</a></p>
+            <aside id="searchHistory">
+                <p class="citySearch">City</p>
+            </aside>
+        </nav>
+        <section id="columnRight">
+
+            <section id="todayWeather">
+
+                <h3>City <span>Date</span><span>weather icon</span></h3>
+                <p id="todayTemp">Temp: <span></span></p>
+                <p id="todayWind">Wind: <span></span></p>
+                <p id="todayHum">Humidity: <span></span></p>
+            </section>
+
+            <section id="forecast">
+                <h4>5-Day Forecast:</h4>
+                <section id="fiveDay">
+                    <section class="day day1">
+                        <p class="forecastDate">Date</p>
+                        <p class="forecastInfo">Temp: <span></span></p>
+                        <p class="forecastInfo">Wind: <span></span></p>
+                        <p class="forecastInfo">Humidity: <span></span></p>
+                    </section>
+                    <section class="day day2">
+                        <p class="forecastDate">Date</p>
+                        <p class="forecastInfo">Temp: <span></span></p>
+                        <p class="forecastInfo">Wind: <span></span></p>
+                        <p class="forecastInfo">Humidity: <span></span></p>
+                    </section>
+                    <section class="day day3">
+                        <p class="forecastDate">Date</p>
+                        <p class="forecastInfo">Temp: <span></span></p>
+                        <p class="forecastInfo">Wind: <span></span></p>
+                        <p class="forecastInfo">Humidity: <span></span></p>
+                    </section>
+                    <section class="day day4">
+                        <p class="forecastDate">Date</p>
+                        <p class="forecastInfo">Temp: <span></span></p>
+                        <p class="forecastInfo">Wind: <span></span></p>
+                        <p class="forecastInfo">Humidity: <span></span></p>
+                    </section>
+                    <section class="day day5">
+                        <p class="forecastDate">Date</p>
+                        <p class="forecastInfo">Temp: <span></span></p>
+                        <p class="forecastInfo">Wind: <span></span></p>
+                        <p class="forecastInfo">Humidity: <span></span></p>
+                    </section>
+                </section>
+            </section> 
+        </section> 
+    </section>
+    <!-- JAVASCRIPT FILES -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
