@@ -21,7 +21,9 @@ HTML, CSS, JavaScript, Jquery
 ## Credits
 
 Google Fonts:
+
 Open Weather: https://openweathermap.org/
+
 Day.js: https://day.js.org/en/
 
 ## License
